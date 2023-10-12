@@ -1,0 +1,25 @@
+.container-body {
+    height: 600px;
+  }
+  
+  .bg-container {
+    position: relative;
+    width: 80% !important;
+    margin: auto;
+    margin-top: 5em;
+    text-align: center;
+
+
+  }
+  .bg-container img {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    font-size: 70px;
+    height: 5em;
+    margin-bottom: 1em;
+    flex-shrink: 2;
+  }
+
