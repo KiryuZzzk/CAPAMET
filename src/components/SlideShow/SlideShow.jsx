@@ -33,12 +33,12 @@ export default function SlideShow() {
 `;
 
     return (
-        <Box sx ={{width: "60%", mx: "auto", boxShadow:4, boxSizing:"border-box", 
+        <Box sx ={{width: "90vw", mx: "auto", boxShadow:4, boxSizing:"border-box", 
         marginTop: "30px", px:"10px", py:"0px", borderRadius:3, bgcolor:fondoClaro} }>
         <Slide pauseOnHover={false} duration={"3500"}>
             {
             images.map((image,index)=> <div>
-                    <Slides style={{ 'backgroundImage': `url(${images[index]}) `, height:'400px'}}></Slides>
+                    <Slides style={{ 'backgroundImage': `url(${images[index]}) `, height:'50vw'}}></Slides>
                     <Spans>{imagesDesc[index]}</Spans>
                 </div>
             )

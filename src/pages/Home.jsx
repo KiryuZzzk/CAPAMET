@@ -7,7 +7,7 @@ const Home = (props) => {
 
     const Div = styled.div`
     background-color: ${colorSecundario};
-    width: auto;
+    width: 100%;
   `;
 
   return (

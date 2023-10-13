@@ -9,8 +9,8 @@ export default function Title(){
 
 
     const ImgLogo = styled.img`
-        height: 200px;
-        width: auto;
+        height: auto;
+        max-width: 90%;
         `;
 
         return <Box sx ={{ mx: "auto", boxShadow:0, boxSizing:"border-box", marginTop: "30px", px:"10px", py:"0px", borderRadius:3, display:"flex",

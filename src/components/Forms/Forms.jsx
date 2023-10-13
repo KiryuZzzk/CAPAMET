@@ -8,6 +8,8 @@ import { colorEfectos } from "../UI/variables";
 import {Typography} from "@mui/material";
 import Alert from '@mui/material/Alert';
 import {AlertTitle} from "@mui/material";
+import { useMediaQuery } from "@mui/material";
+
 
 const DatosUsuario = (props) => {
   const {setPage} = props;
@@ -25,6 +27,7 @@ const DatosUsuario = (props) => {
 
   const [validForms, setValidForms] = useState("");
 
+  const matches= useMediaQuery('(min-width:1032px)');
   return (
     <Box
       component="form"
@@ -52,9 +55,16 @@ const DatosUsuario = (props) => {
         }
       }}
     >
-    <Typography variant="h2" sx={{fontSize:"2.5rem", fontWeight:"400", 
-        lineHeight:"4.5rem", borderBottom:"4px solid",borderColor:colorSecundario, textAlign:"center", width:"30%", mb:"0.2em"}}> 
+
+
+        {
+        matches ? <Typography variant="h2"  sx={{fontSize:"3em", fontWeight:"400", 
+        lineHeight:"4.5rem", textAlign:"center" , borderBottom:"4px solid",borderColor:colorSecundario, width:"50%"}}> 
+        Contacto </Typography> : <Typography variant="h2" sx={{fontSize:"5vw", fontWeight:"400", 
+        lineHeight:"4.5rem", borderBottom:"4px solid",borderColor:colorSecundario, textAlign:"center", mx:"auto", width:"50%"}}> 
         Contacto </Typography>
+
+        }
         {
         (validForms === false) && <Alert severity="error">
         <AlertTitle><strong>Error</strong></AlertTitle>

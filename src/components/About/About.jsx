@@ -1,9 +1,4 @@
 import React from "react"
-import { fondoClaro } from "../UI/variables";
-import {Typography} from "@mui/material";
-import { colorSecundario } from "../UI/variables";
-import {Stack} from "@mui/material";
-import { Fade } from "react-reveal";
 import ParallaxImage from "../ParallaxImage/ParallaxImage";
 import TitleText from "../TitleText/TitleText";
 

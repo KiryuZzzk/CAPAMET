@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import { colorPrimario, fondoClaro, colorSecundario } from '../UI/variables';
+import { colorPrimario, colorSecundario } from '../UI/variables';
 import { nombre } from '../UI/empresa'
 import image from "../../assets/img/logo-64.png"
 import { useEffect } from 'react';

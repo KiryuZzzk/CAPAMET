@@ -10,12 +10,14 @@ import { useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 
+
 function App() {
 
   const [page, setPage] = useState("Home");
   const matches1120 = useMediaQuery('(min-width:1120px)');
 
-  return <>
+
+  return <div>
     {
     matches1120 ? <Menu setPage={setPage} page={page}/> : <Menusm setPage={setPage} page={page} />
     }
@@ -34,7 +36,7 @@ function App() {
     <Footer/>
 
 
-</>
+</div>
 }
 
 export default App;

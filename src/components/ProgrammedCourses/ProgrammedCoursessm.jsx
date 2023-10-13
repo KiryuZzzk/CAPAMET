@@ -7,16 +7,16 @@ import { Fade } from "react-reveal";
 import ParallaxImage from "../ParallaxImage/ParallaxImage";
 
 
-export default function ProgrammedCourses(props){
+export default function ProgrammedCoursessm(props){
     return <Fade bottom>
 
-     <Box sx={{display: "flex", paddingTop:"7em" , justifyContent:"center"}}>
-        <Typography variant="h6" width="50%" ml="2em">Ofrecemos una amplia gama de cursos para ayudarte a alcanzar tus metas profesionales en la atención médica de emergencia. 
+     <Box display= "flex" flexDirection='column' paddingTop="7em" justifyContent="center">
+        <Typography variant="h6" width="50%" m="auto">Ofrecemos una amplia gama de cursos para ayudarte a alcanzar tus metas profesionales en la atención médica de emergencia. 
             Desde capacitación básica para Técnicos en Emergencias Médicas hasta cursos especializados para paramédicos y personal de rescate, 
             nuestro equipo está aquí para ayudarte a alcanzar tu máximo potencial. <br></br><br></br>
         Nuestros cursos están diseñados para ser prácticos y orientados a la acción, y se basan en la última investigación y tecnología en el campo
         de la atención médica de emergencia.</Typography>
-        <Grid spacing={3} direction="column" alignItems="center" width="50%">
+        <Grid spacing={4} width="100%" m="auto" sx={{ boxSizing:"border-box"}}>
         {
             certificaciones.map((certificacion)=> <img src={certificacion.imagen} alt={certificacion.asc} width="50%"/>)
             }

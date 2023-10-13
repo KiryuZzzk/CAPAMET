@@ -9,16 +9,17 @@ import img8 from "../../assets/img/intro/img8.avif"
 import img9 from "../../assets/img/intro/img9.avif"
 import img10 from "../../assets/img/intro/img10.avif"
 
+import slideshow1 from "../../assets/img/slideshow/slideshow1.jpg"
+import slideshow2 from "../../assets/img/slideshow/slideshow2.jpg"
+import slideshow3 from "../../assets/img/slideshow/slideshow3.jpg"
+import slideshow4 from "../../assets/img/slideshow/slideshow4.jpg"
 
 
 export const nombre = "CAPAMET Training Center"
 
 
 export const images = [
-    "https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/379257109_3660227447542513_9073243589398047659_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5614bc&_nc_ohc=PVL64XXVMQsAX9KResK&_nc_ht=scontent.fmex15-1.fna&oh=00_AfByXFJBylWEdujhk4viLYZVeUK6jq9VLmWRKnahe18YtA&oe=652B7E28",
-    "https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/325312718_660479355873856_4025707250893879320_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5614bc&_nc_ohc=MCN04GDF-TwAX9kgY11&_nc_ht=scontent.fmex15-1.fna&oh=00_AfCjJe-DUjiuRR7Wf1DcvQsAsmxSfX76lleVnAClZWZ1Fw&oe=652ABA37",
-    "https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/325411593_903828343942555_7574882892706645494_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5614bc&_nc_ohc=eu_xrQzMAWgAX8Fie_9&_nc_ht=scontent.fmex15-1.fna&oh=00_AfCcAH2bJjWt8jE31nvAS7GWxOQXFKEBTUqHST8SnzyQlg&oe=652B9CE0",
-    "https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/324439018_731141881521105_5513717876942218597_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=813123&_nc_ohc=7F71e4TPms0AX91Afnv&_nc_ht=scontent.fmex15-1.fna&oh=00_AfDUMmBSqVuNT7MuCX_a38ZtP7PCDFCh-BBt057BOF_-2w&oe=652B58AF",
+    slideshow1,slideshow2,slideshow3,slideshow4
 ];
 
 export const imagesDesc = [

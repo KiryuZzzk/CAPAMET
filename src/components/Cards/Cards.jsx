@@ -28,7 +28,7 @@ export default function Cards({id,nombre, asc, fecha, ubicacion, costo, imagen, 
           </Typography>
 
           <Typography variant="h6" color="text.secondary">
-            {fecha} , {ubicacion}
+            {fecha}  {ubicacion}
           </Typography>
           <Typography variant="h5" sx={{paddingTop:"10px"}}>
             {costo}

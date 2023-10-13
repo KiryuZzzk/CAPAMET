@@ -2,11 +2,9 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import { colorPrimario, fondoClaro, colorSecundario } from '../UI/variables';
-import { nombre } from '../UI/empresa'
+import { colorPrimario} from '../UI/variables';
 import image from "../../assets/img/logo-64.png"
 import { useEffect } from 'react';
 import Menu from '@mui/material/Menu';
@@ -16,7 +14,7 @@ import { BiMenuAltRight } from 'react-icons/bi';
 
 export default function ButtonAppBarsm(props) {
 
-    const {setPage, page} = props;
+    const {setPage} = props;
 
 
     useEffect(() => {
