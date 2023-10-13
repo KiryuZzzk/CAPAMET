@@ -11,7 +11,7 @@ import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 
 
-export default function Footer() {
+export default function Footersm() {
   return ( <>
     <Slide bottom>
     <Box sx={{ backgroundColor:colorPrimario, px:"2em"}}> 
@@ -30,9 +30,6 @@ export default function Footer() {
 
             <img src={image} alt="logo" style={{height:"60px"}}/>
           </IconButton>
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1, textTransform: 'uppercase', fontWeight: 'bold', color:"white" }}>
-            {nombre}
-          </Typography>
           <FaFacebookSquare aria-label="Facebook.com" color="white" size={50} onClick={() => window.open('https://www.facebook.com/gilberto.capamet')}/>
           <FaInstagramSquare aria-label="Instagram.com" color="white" size={50} onClick={() => window.open('https://www.instagram.com/capametcursos/')}/>
         </Stack>

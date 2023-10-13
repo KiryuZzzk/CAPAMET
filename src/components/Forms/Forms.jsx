@@ -39,7 +39,7 @@ const DatosUsuario = (props) => {
         flexDirection: "column",
         my:"2em",
         mx:"auto",
-        width: "50%",
+        width: "80%",
         backgroundColor: fondoClaro,
         p:"2em", borderRadius:"10px", boxSizing:"border-box"
       }}

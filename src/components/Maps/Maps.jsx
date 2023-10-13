@@ -18,16 +18,16 @@ export default function Maps(){
       flexDirection: "column",
       my:"2em",
       mx:"auto",
-      width: "50%",
+      width: "80%",
       backgroundColor: fondoClaro,
       p:"2em", borderRadius:"10px", boxSizing:"border-box"
     }}
     >
         {
-        matches ? <Typography variant="h2"  sx={{fontSize:"3em", fontWeight:"400", 
-        lineHeight:"4.5rem", textAlign:"center" , borderBottom:"4px solid",borderColor:colorSecundario, width:"50%"}}> 
-        Ubicación </Typography> : <Typography variant="h2" sx={{fontSize:"5vw", fontWeight:"400", 
-        lineHeight:"4.5rem", borderBottom:"4px solid",borderColor:colorSecundario, textAlign:"center", mx:"auto", width:"50%"}}> 
+        matches ? <Typography variant="h2" mb="0.5em" sx={{fontSize:"3em", fontWeight:"400", 
+        lineHeight:"6vw", textAlign:"center" , borderBottom:"4px solid",borderColor:colorSecundario, width:"50%"}}> 
+        Ubicación </Typography> : <Typography variant="h2" mb="0.5em" sx={{fontSize:"5vw", fontWeight:"400", minWidth:"30%",
+        lineHeight:"6vw", borderBottom:"4px solid",borderColor:colorSecundario, textAlign:"center", mx:"auto", width:"50%"}}> 
         Ubicación </Typography>
 
         }

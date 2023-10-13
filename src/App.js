@@ -8,6 +8,7 @@ import Diplomados from './pages/Diplomados';
 import Contact from './pages/Contact';
 import { useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Footersm from './components/Footer/Footersm'; 
 
 
 
@@ -33,7 +34,9 @@ function App() {
     {
       (page === "Contact") && <Contact setPage={setPage} page={page}/>
     }
-    <Footer/>
+    {
+    matches1120 ? <Footer/> : <Footersm />
+    }
 
 
 </div>
