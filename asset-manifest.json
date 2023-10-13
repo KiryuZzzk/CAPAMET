@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/CAPAMET/static/css/main.fbc2830f.css",
-    "main.js": "/CAPAMET/static/js/main.8d0f1142.js",
+    "main.css": "/CAPAMET/static/css/main.b9b008b2.css",
+    "main.js": "/CAPAMET/static/js/main.58dcfa2e.js",
     "static/js/787.963ed3e0.chunk.js": "/CAPAMET/static/js/787.963ed3e0.chunk.js",
     "static/media/EV-PC.jpg": "/CAPAMET/static/media/EV-PC.124cfabe6cda7305aaec.jpg",
     "static/media/ETLS-Adiel.png": "/CAPAMET/static/media/ETLS-Adiel.2355f0c621a20240fb52.png",
+    "static/media/mapa.png": "/CAPAMET/static/media/mapa.ff58ee04f14510ae639f.png",
     "static/media/INC-PC.jpg": "/CAPAMET/static/media/INC-PC.a59d40dbf9404e330ef3.jpg",
+    "static/media/slideshow4.jpg": "/CAPAMET/static/media/slideshow4.aa2eb2d6f682b0bf99ec.jpg",
     "static/media/PAYDEA-ECSI.png": "/CAPAMET/static/media/PAYDEA-ECSI.e3a8d3570f6e03bd18af.png",
     "static/media/PA-PC.jpg": "/CAPAMET/static/media/PA-PC.89f53ef194a01a54b8b1.jpg",
     "static/media/BYR-PC.jpg": "/CAPAMET/static/media/BYR-PC.59f0146d5073943b1046.jpg",
     "static/media/GESP-PC.jpg": "/CAPAMET/static/media/GESP-PC.a014be25cdde0fef50d4.jpg",
     "static/media/PHTLS-NAEMT.jpg": "/CAPAMET/static/media/PHTLS-NAEMT.ec486b12bf0954d324e8.jpg",
     "static/media/AHDR-NAEMT.jpg": "/CAPAMET/static/media/AHDR-NAEMT.07cc09b6b328e705d0d9.jpg",
+    "static/media/slideshow1.jpg": "/CAPAMET/static/media/slideshow1.1a02a0774ebabf122a97.jpg",
+    "static/media/slideshow2.jpg": "/CAPAMET/static/media/slideshow2.219286679c40125d1e07.jpg",
+    "static/media/slideshow3.jpg": "/CAPAMET/static/media/slideshow3.34aab006858d637491c3.jpg",
     "static/media/TECC-NAEMT.jpg": "/CAPAMET/static/media/TECC-NAEMT.333c65655cccef870ca7.jpg",
     "static/media/COM-PC.png": "/CAPAMET/static/media/COM-PC.9e314e786499b55e4f7f.png",
     "static/media/CERT-STPS.png": "/CAPAMET/static/media/CERT-STPS.92c8b70c99c78b94ea44.png",
@@ -42,12 +47,12 @@
     "static/media/logo-64.png": "/CAPAMET/static/media/logo-64.eb080842274d39d1a7ac.png",
     "static/media/EPC-NAEMT.jpg": "/CAPAMET/static/media/EPC-NAEMT.44a22de38aaec68442d0.jpg",
     "index.html": "/CAPAMET/index.html",
-    "main.fbc2830f.css.map": "/CAPAMET/static/css/main.fbc2830f.css.map",
-    "main.8d0f1142.js.map": "/CAPAMET/static/js/main.8d0f1142.js.map",
+    "main.b9b008b2.css.map": "/CAPAMET/static/css/main.b9b008b2.css.map",
+    "main.58dcfa2e.js.map": "/CAPAMET/static/js/main.58dcfa2e.js.map",
     "787.963ed3e0.chunk.js.map": "/CAPAMET/static/js/787.963ed3e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc2830f.css",
-    "static/js/main.8d0f1142.js"
+    "static/css/main.b9b008b2.css",
+    "static/js/main.58dcfa2e.js"
   ]
 }
