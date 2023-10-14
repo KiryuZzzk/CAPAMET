@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CAPAMET/static/css/main.b9b008b2.css",
-    "main.js": "/CAPAMET/static/js/main.58dcfa2e.js",
+    "main.css": "/CAPAMET/static/css/main.d7aa37e7.css",
+    "main.js": "/CAPAMET/static/js/main.0c79b2ec.js",
     "static/js/787.963ed3e0.chunk.js": "/CAPAMET/static/js/787.963ed3e0.chunk.js",
     "static/media/EV-PC.jpg": "/CAPAMET/static/media/EV-PC.124cfabe6cda7305aaec.jpg",
     "static/media/ETLS-Adiel.png": "/CAPAMET/static/media/ETLS-Adiel.2355f0c621a20240fb52.png",
@@ -47,12 +47,12 @@
     "static/media/logo-64.png": "/CAPAMET/static/media/logo-64.eb080842274d39d1a7ac.png",
     "static/media/EPC-NAEMT.jpg": "/CAPAMET/static/media/EPC-NAEMT.44a22de38aaec68442d0.jpg",
     "index.html": "/CAPAMET/index.html",
-    "main.b9b008b2.css.map": "/CAPAMET/static/css/main.b9b008b2.css.map",
-    "main.58dcfa2e.js.map": "/CAPAMET/static/js/main.58dcfa2e.js.map",
+    "main.d7aa37e7.css.map": "/CAPAMET/static/css/main.d7aa37e7.css.map",
+    "main.0c79b2ec.js.map": "/CAPAMET/static/js/main.0c79b2ec.js.map",
     "787.963ed3e0.chunk.js.map": "/CAPAMET/static/js/787.963ed3e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9b008b2.css",
-    "static/js/main.58dcfa2e.js"
+    "static/css/main.d7aa37e7.css",
+    "static/js/main.0c79b2ec.js"
   ]
 }
